@@ -1,0 +1,70 @@
+{
+    "context": "client",
+    "identifier": "info.nanodesu.pastats",
+    "display_name": "PA Stats Online",
+    "description": "Track your statistics",
+    "author": "Cola_Colin, Gunshin",
+    "version": "6.0.2",
+    "build": "94684",
+    "date": "2016/07/06",
+    "signature": "not yet implemented",
+    "forum": "https://forums.uberent.com/threads/rel-pa-stats-52168.50690/",
+    "category": [
+        "game",
+        "ui",
+        "classic",
+        "titans"
+    ],
+    "priority": 100,
+    "scenes":
+    {
+        "gw_start":
+        [
+            "coui://ui/mods/pastats/gw_start.js"
+        ],
+        "live_game":
+        [
+            "coui://ui/mods/pastats/global.js",
+            "coui://ui/mods/pastats/unit_info_parser.js",
+            "coui://ui/mods/pastats/alerts_manager.js",
+            "coui://ui/mods/pastats/live_game.js"
+        ],
+        "live_game_message":
+        [
+            "coui://ui/mods/pastats/live_game_message.js"
+        ],
+        "live_game_time_bar":
+        [
+            "coui://ui/mods/pastats/unit_info_parser.js",
+            "coui://ui/mods/pastats/alerts_manager.js"
+        ],
+        "live_game_unit_alert":
+        [
+            "coui://ui/mods/pastats/unit_info_parser.js",
+            "coui://ui/mods/pastats/alerts_manager.js"
+        ],
+        "game_over":
+        [
+            "coui://ui/mods/pastats/game_over.js"
+        ],
+        "new_game":
+        [
+            "coui://ui/mods/pastats/new_game.js"
+        ],
+        "new_game_ladder":
+        [
+            "coui://ui/mods/pastats/new_game_ladder.js"
+        ],
+        "settings":
+        [
+            "coui://ui/mods/pastats/global.js",
+            "coui://ui/mods/pastats/settings.js"
+        ],
+        "start":
+        [
+            "coui://ui/mods/pastats/global.js",
+            "coui://ui/mods/pastats/start.js"
+        ]
+    },
+    "enabled": true
+}

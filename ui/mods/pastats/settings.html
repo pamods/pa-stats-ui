@@ -1,0 +1,14 @@
+<div class="sub-group pastatssettings">
+    <div id="pasttatssettingspanel" style="height: 400px; overflow: scroll; overflow-x:hidden;">
+        <h4>Datacollection</h4>
+        <div>
+            Send data to PA Stats: <input type="checkbox"
+                data-bind="checked: wantsToSend" /> (Change applies directly, if you reload the UI once (yes I am too lazy to make it better))
+        </div>
+        <div data-bind="visible: wantsToSend">
+            Show live updates on the webpage: <input type="checkbox"
+                data-bind="checked: showDataLive" /> (Change does only apply after
+            you start a new game)
+        </div>
+    </div>
+</div>
